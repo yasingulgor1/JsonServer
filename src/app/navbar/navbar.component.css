@@ -1,0 +1,29 @@
+.navbar ul {
+    padding-right: 15px;
+}
+
+.navbar-header {
+    padding-left: 15px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.navbar-header a,
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-header a:hover,
+.navbar ul li a:hover {
+    color: black;
+    transition: 0.5s linear;
+}
+
+.navbar {
+    border-radius: 4px;
+}
